@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PYConnection"
+version = "2.0.0"
+description = "Combined SDK merging spluslib and requests for Soroush Plus and HTTP connectivity"
+license = { text = "MIT" }
+authors = [{ name = "DarkMaster", email = "darkmaster@example.com" }]
+requires-python = ">=3.8"
+keywords = ["spluslib", "requests", "soroush", "pyconnection"]
+dependencies = ["requests>=2.28.0"]
+
+[project.urls]
+Homepage = "https://github.com/DarkMaster/PYConnection"
+Documentation = "https://pyconnection.darkmaster.dev"
+Source = "https://github.com/DarkMaster/PYConnection"
+
+[tool.setuptools.packages.find]
+where = ["."]
