@@ -1,4 +1,5 @@
-MIT License
+```markdown
+# MIT License
 
 Copyright (c) 2026 SalesmanMNRA
 
@@ -9,8 +10,9 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -19,3 +21,66 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## What This Means (Plain English Summary)
+
+*This is a human-readable summary of the MIT License. It is not a substitute for the license itself, and it has no legal value.*
+
+### ✅ You CAN:
+- **Commercial Use** — Use the software for commercial purposes.
+- **Modify** — Change the source code to suit your needs.
+- **Distribute** — Share copies of the original or modified software.
+- **Sublicense** — Grant sublicenses to others.
+- **Private Use** — Use the software privately without publishing your changes.
+
+### ❌ You CANNOT:
+- **Hold Liable** — The authors are not responsible if something breaks.
+- **Expect Warranty** — The software comes with no guarantee of quality or fitness for a particular purpose.
+
+### 📌 You MUST:
+- **Include Copyright & License Notice** — If you distribute the software (or a substantial portion of it), you must include the original copyright notice and this permission notice. This applies to both source code and binary distributions.
+
+---
+
+## SPDX Identifier
+
+```
+SPDX-License-Identifier: MIT
+```
+
+When including this license in source files, the SPDX standard recommends adding the following tag in a comment near the top of the file:
+
+```python
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 SalesmanMNRA
+```
+
+This allows automated tools and license scanners (like `licensee`, `FOSSA`, or GitHub's license detection) to instantly identify the license without parsing the full text.
+
+---
+
+## Frequently Asked Questions
+
+**Q: Can I use this in a closed-source commercial product?**
+A: Yes. The MIT License is permissive — you are not required to open-source your own code. You only need to include the original copyright and license notice.
+
+**Q: Do I need to include the full license text in my distributed binary?**
+A: The license states "all copies or substantial portions of the Software." For binaries, including the license text in an `About` or `Licenses` screen (or a `LICENSE` file in the distribution) is the standard practice.
+
+**Q: Can I relicense this under GPL?**
+A: Yes. The MIT License is compatible with the GPL. You can incorporate MIT-licensed code into a GPL project, provided you comply with both licenses (which essentially means preserving the MIT notice).
+
+**Q: What if the software has a bug that costs me money?**
+A: The "AS IS" clause means the authors provide no warranty. You use the software at your own risk, and the authors cannot be held liable for damages.
+
+**Q: Is this the same as the "Expat" license?**
+A: Yes. The MIT License is also known as the "Expat" license. The text is identical.
+
+---
+
+## Attribution
+
+This license text is the standard MIT License as published by the [Open Source Initiative (OSI)](https://opensource.org/license/MIT) and recognized by the [Software Package Data Exchange (SPDX)](https://spdx.org/licenses/MIT.html). The plain English summary is adapted from [choosealicense.com](https://choosealicense.com/licenses/mit/), a project by GitHub.
+```
