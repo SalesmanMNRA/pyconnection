@@ -10,7 +10,7 @@ from pyconnection import PYConnectionClient
 
 
 # ======================== CONFIG ========================
-BOT_TOKEN = "70528948:SWJc2I8YqyrS_A_ZEY-jyuHOtr-UQAaLAWQ"
+BOT_TOKEN = "YOUR_API_KEY"
 API_BASE = f"https://api.splus.ir/bot{BOT_TOKEN}"
 
 # Global client
